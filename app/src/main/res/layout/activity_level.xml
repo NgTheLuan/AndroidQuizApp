@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgtwo"
+    tools:context=".LevelGame">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/txtchedo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="220dp"
+            android:text="LEVEL"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:textSize="40dp" />
+
+    <LinearLayout
+        android:layout_below="@+id/txtchedo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="100dp"
+        android:orientation="vertical"
+        android:weightSum="4"
+        tools:ignore="NotSibling">
+
+        <Button
+            android:id="@+id/btnde"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/txtchedo"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:background="@drawable/custom_button1"
+            android:text="Easy" />
+
+        <Button
+            android:id="@+id/btnbt"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/btnde"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:background="@drawable/custom_button1"
+            android:text="Normal" />
+
+        <Button
+            android:id="@+id/btnkho"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/btnbt"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button1"
+            android:text="Hard" />
+
+        <Button
+            android:id="@+id/btntrove"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/btnkho"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button1"
+            android:text="Back" />
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+

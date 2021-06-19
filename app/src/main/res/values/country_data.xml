@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="tips_codes">
+        <item>ps1</item>
+        <item>ps2</item>
+        <item>ps3</item>
+        <item>ps4</item>
+        <item>ps5</item>
+        <item>ps6</item>
+
+        <item>pc1</item>
+        <item>pc2</item>
+        <item>pc3</item>
+
+        <item>pp1</item>
+        <item>pp2</item>
+        <item>pp3</item>
+
+        <item>ppc1</item>
+        <item>ppc2</item>
+        <item>ppc3</item>
+
+        <item>pres1</item>
+        <item>pres2</item>
+        <item>pres3</item>
+        <item>pres4</item>
+        <item>pres5</item>
+        <item>pres6</item>
+
+        <item>prec1</item>
+        <item>prec2</item>
+        <item>prec3</item>
+
+
+    </string-array>
+
+    <string-array name="tips_names">
+        <item>1. Past Simple To Be (affirmative)</item>
+        <item>2. Past Simple To be (negative)</item>
+        <item>3. Past Simple To Be (question)</item>
+        <item>4. Past Simple Verbs (affirmative)</item>
+        <item>5. Past Simple Verbs (negative)</item>
+        <item>6. Past Simple Verbs (question)</item>
+
+        <item>7. Past Continuous (affirmative)</item>
+        <item>8. Past Continuous (negative)</item>
+        <item>9. Past Continuous (question)</item>
+
+        <item>7. Past Perfect (affirmative)</item>
+        <item>8. Past Perfect (negative)</item>
+        <item>9. Past Perfect (question)</item>
+
+        <item>10. Past Perfect Continuous (affirmative)</item>
+        <item>11. Past Perfect Continuous (negative)</item>
+        <item>12. Past Perfect Continuous (question)</item>
+
+
+    </string-array>
+</resources>

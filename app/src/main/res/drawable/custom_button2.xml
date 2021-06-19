@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+
+android:shape="rectangle">
+
+<size android:height="25dp"
+    android:width="80dp"/>
+
+<!--4 cạnh xung quanh button-->
+<corners android:radius="100dp"/>
+
+
+<!--Viền xung quanh button-->
+<stroke android:color="#D2B48C"
+    android:width="2dp"/>
+
+<gradient android:angle="45"
+    android:startColor="#98C3F5"
+    android:endColor="#F5AA8A"/>
+
+
+
+</shape>

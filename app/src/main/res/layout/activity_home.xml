@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/christmashome"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:background="@drawable/theme"
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:textColor="#ff00"
+            android:textSize="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="sans-serif-medium"
+            android:text="ENGLISH QUIZ"/>
+
+        <TextView
+            android:id="@+id/txtFullName"
+            android:layout_width="400dp"
+            android:layout_gravity="center"
+            android:layout_height="200dp"
+            android:paddingTop="80dp"
+            android:background="@drawable/tablefour"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="Hahaha"
+            android:textColor="#fff"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <Button
+                android:id="@+id/buttonstart"
+                android:layout_width="172dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="24dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button"
+                android:text="PLAY"
+                android:textColor="#FF3030"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/buttonrank"
+                android:layout_width="172dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="24dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button"
+                android:text="RANK SCORE"
+                android:textColor="#FF3030"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/buttonhelp"
+                android:layout_width="172dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="24dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button"
+                android:text="TIPS ENGLISH"
+                android:textColor="#FF3030"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/buttonexit"
+                android:layout_width="172dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="24dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button"
+                android:text="LOG OUT"
+                android:textColor="#FF3030"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
